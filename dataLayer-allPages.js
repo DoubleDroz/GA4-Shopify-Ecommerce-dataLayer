@@ -201,7 +201,7 @@ __DL__jQueryinterval = setInterval(function(){
         if ($.cookie('landingPage') === 'landed') {
             dataLayer.push({
                 'pageType': 'Landing',
-                'event': 'firs_time_visitor'
+                'event': 'first_time_visitor'
             });
         }
         
@@ -307,7 +307,7 @@ __DL__jQueryinterval = setInterval(function(){
                 'title'       : {{article.title | json}},
                 'dateCreated' : {{article.created_at | json}},
                 'pageType'    : 'Blog',
-                'event'       : 'Blog'
+                'event'       : 'blog'
             });
         {% endif %}
         
