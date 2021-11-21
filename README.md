@@ -41,7 +41,7 @@ It is highly recommended to review the entire implementation and make your own c
 
 If the  **Checkout page  _cannot be edited_**, use this option. ( Checkout page edits are only available on Shopify Plus. )
 | Assets | Integration Type | Asset Type |
-|--|--|--|--|
+| --------|---------|---------|
 |*theme.liquid* ( or your primary theme template ) | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > theme.liquid ( or primary theme template )_|
 |purchase | Modification |**Admin Setting:**  _Settings > Checkout > Order Processing > Additional Pixels & Scripts_|
 |dataLayer-allPages|Creation|**Snippet:**  _Online Store > Themes > ... > Edit HTML/CSS > Snippets > ( will create Snippet in instructions )_|
@@ -63,7 +63,7 @@ If the  **Checkout page  _cannot be edited_**, use this option. ( Checkout page 
 
 If the  **Checkout page  _can be edited_**, use this option. ( Checkout page edits are only available on Shopify Plus. )
 | Assets | Integration Type | Asset Type |
-|--|--|--|--|
+| --------|---------|---------|
 |*theme.liquid* ( or your primary theme template ) | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > theme.liquid ( or primary theme template )_|
 |checkout.liquid | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > checkout.liquid_|
 |dataLayer-allPages|Creation|**Snippet:**  _Online Store > Themes > ... > Edit HTML/CSS > Snippets > ( will create Snippet in instructions )_|
