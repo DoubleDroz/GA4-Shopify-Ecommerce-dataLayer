@@ -61,12 +61,12 @@ If the  **Checkout page  _cannot be edited_**, use this option. ( Checkout page 
 
 #### Installation Option 2:
 
-If the  **Checkout page  _can be edited_**, use this option. ( Checkout page edits are only available on Shopify Plus. )
+If the  **Checkout page  _can be edited_**, use this option. (Checkout page edits are only available on Shopify Plus.)
 | Assets | Integration Type | Asset Type |
 | --------|---------|---------|
-|*theme.liquid* ( or your primary theme template ) | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > theme.liquid ( or primary theme template )_|
+|*theme.liquid* (or your primary theme template) | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > theme.liquid (or primary theme template)_|
 |checkout.liquid | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > checkout.liquid_|
-|dataLayer-allPages|Creation|**Snippet:**  _Online Store > Themes > ... > Edit HTML/CSS > Snippets > ( will create Snippet in instructions )_|
+|dataLayer-allPages|Creation|**Snippet:**  _Online Store > Themes > ... > Edit HTML/CSS > Snippets > (will create Snippet in instructions)_|
 |Google Tag Manager|Modification|**Layout:**  _Online Store > Themes > Snippets > dataLayer-allPages.liquid_. Add your GTM-XXXX ID at the end.
 **Create the dataLayer-allPages snippet (  _use exact naming and casing!_  )**
 
