@@ -1,4 +1,4 @@
-# GA4-Shopify-dataLayer
+# Shopify dataLayer for GA4 and GTM
 
 ### Introduction
 
