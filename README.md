@@ -46,6 +46,7 @@ If the  **Checkout page  _cannot be edited_**, use this option. ( Checkout page 
 |purchase | Modification |**Admin Setting:**  _Settings > Checkout > Order Processing > Additional Pixels & Scripts_|
 |dataLayer-allPages|Creation|**Snippet:**  _Online Store > Themes > ... > Edit HTML/CSS > Snippets > ( will create Snippet in instructions )_|
 |Google Tag Manager|Modification|**Layout:**  _Online Store > Themes > Snippets > dataLayer-allPages.liquid_. Add your GTM-XXXX ID at the end.
+
 **Create the dataLayer-allPages snippet (  _use exact naming and casing!_  )**
 
 -   Create a snippet called  **_dataLayer-allPages_**  and copy over the provided  [dataLayer-allPages.js](https://github.com/paolobtl/GA4-Shopify-dataLayer/blob/main/dataLayer-allPages.js) file in the newly created snippet. 
@@ -68,6 +69,7 @@ If the  **Checkout page  _can be edited_**, use this option. (Checkout page edit
 |checkout.liquid | Modification |**Layout:**  _Online Store > Themes > ... > Edit HTML/CSS > Layout > checkout.liquid_|
 |dataLayer-allPages|Creation|**Snippet:**  _Online Store > Themes > ... > Edit HTML/CSS > Snippets > (will create Snippet in instructions)_|
 |Google Tag Manager|Modification|**Layout:**  _Online Store > Themes > Snippets > dataLayer-allPages.liquid_. Add your GTM-XXXX ID at the end.
+
 **Create the dataLayer-allPages snippet (  _use exact naming and casing!_  )**
 
 -   Create a snippet called  **_dataLayer-allPages_**  and copy over the provided  [dataLayer-allPages.js](https://github.com/paolobtl/GA4-Shopify-dataLayer/blob/main/dataLayer-allPages.js) file in the newly created snippet. 
