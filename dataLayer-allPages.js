@@ -317,9 +317,9 @@ __DL__jQueryinterval = setInterval(function(){
             var ecommerce = {
                 'items': [
                     {% for product in collection.products %}{
-                        'item_id '        : {{product.id | json}},                  
+                        'item_id'        : {{product.id | json}},                  
                         'item_variant'    : {{product.selected_variant.title | json}},             
-                        'item_name '      : {{product.title | json}},
+                        'item_name'      : {{product.title | json}},
                         'price'           : {{product.price | money_without_currency | replace: ',', '.' | json}},
                         'item_brand'      : {{product.vendor | json}},
                         'item_category'   : {{product.type | json}},
@@ -343,9 +343,9 @@ __DL__jQueryinterval = setInterval(function(){
         {% if template contains 'product' %}  
             var ecommerce = {
                 'items': [{
-                    'item_id '        : {{product.id | json}},  
+                    'item_id'        : {{product.id | json}},  
                     'item_variant'    : {{product.selected_variant.title | json}},             
-                    'item_name '      : {{product.title | json}},
+                    'item_name'      : {{product.title | json}},
                     'price'           : {{product.price | money_without_currency | replace: ',', '.' | json}},
                     'item_brand'      : {{product.vendor | json}},
                     'item_category'   : {{product.type | json}},
@@ -376,9 +376,9 @@ __DL__jQueryinterval = setInterval(function(){
                 'currency': {{cart.currency.iso_code | json}},
                 'value': {{cart.total_price | divided_by: 100.0 | json}},
                 'items':[{% for line_item in cart.items %}{
-                    'item_id '        : {{line_item.product.id | json}},                  
+                    'item_id'        : {{line_item.product.id | json}},                  
                     'item_variant'    : {{line_item.variant.title | json}},             
-                    'item_name '      : {{line_item.product.title | json}},
+                    'item_name'      : {{line_item.product.title | json}},
                     'price'           : {{line_item.product.price | money_without_currency | replace: ',', '.' | json}},
                     'item_brand'      : {{line_item.product.vendor | json}},
                     'item_category'   : {{line_item.product.type | json}},
@@ -410,9 +410,9 @@ __DL__jQueryinterval = setInterval(function(){
                 {% endfor %}
                 'email': {{checkout.email | json}},
                 'items':[{% for line_item in checkout.line_items %}{
-                    'item_id '        : {{line_item.product.id | json}},                  
+                    'item_id'        : {{line_item.product.id | json}},                  
                     'item_variant'    : {{line_item.variant.title | json}},             
-                    'item_name '      : {{line_item.product.title | json}},
+                    'item_name'      : {{line_item.product.title | json}},
                     'price'           : {{line_item.product.price | money_without_currency | replace: ',', '.' | json}},
                     'item_brand'      : {{line_item.product.vendor | json}},
                     'item_category'   : {{line_item.product.type | json}},
@@ -464,9 +464,9 @@ __DL__jQueryinterval = setInterval(function(){
             if(document.location.pathname.match(searchPage)){
                 var ecommerce = {
                     items :[{% for product in search.results %}{
-                        'item_id '        : {{product.id | json}},                  
+                        'item_id'        : {{product.id | json}},                  
                         'item_variant'    : {{product.variant.title | json}},             
-                        'item_name '      : {{product.title | json}},
+                        'item_name'      : {{product.title | json}},
                         'price'           : {{product.price | money_without_currency | replace: ',', '.' | json}},
                         'item_brand'      : {{product.vendor | json}},
                         'item_category'   : {{product.type | json}},
@@ -486,9 +486,9 @@ __DL__jQueryinterval = setInterval(function(){
             {% if template contains 'cart' %}
                 var ecommerce = {
                     'items':[{% for line_item in cart.items %}{
-                        'item_id '        : {{line_item.product.id | json}},                  
+                        'item_id'        : {{line_item.product.id | json}},                  
                         'item_variant'    : {{line_item.variant.title | json}},             
-                        'item_name '      : {{line_item.product.title | json}},
+                        'item_name'      : {{line_item.product.title | json}},
                         'price'           : {{line_item.product.price | money_without_currency | replace: ',', '.' | json}},
                         'item_brand'      : {{line_item.product.vendor | json}},
                         'item_category'   : {{line_item.product.type | json}},
