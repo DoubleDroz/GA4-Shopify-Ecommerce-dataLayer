@@ -53,7 +53,7 @@ If the  **Checkout page  _cannot be edited_**, use this option. ( Checkout page 
 - In the code, navigate to the `Dynamic Dependencies` section and make any necessary changes.
 
 **Add the code to the layouts**
--   Within the  **theme.liquid**  layout, place this include snippet  `{% include 'dataLayer-allPages' %}`  right before the closing </head> tag
+-   Within the  **theme.liquid**  layout, place this include snippet  `{% include 'dataLayer-allPages' %}`  right before the closing `</head>` tag
 -   Within the  **confirmation page**  admin settings, copy over the provided  [checkout.js](https://github.com/paolobtl/GA4-Shopify-dataLayer/blob/main/checkout.js)  code.( Remember, add your GTM ID as in the _dataLayer-allPages_ file )
 
 **Prerequisite Library**
