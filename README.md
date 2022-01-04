@@ -72,7 +72,7 @@ If the  **Checkout page  _can be edited_**, use this option. (Checkout page edit
 
 **Create the dataLayer-allPages snippet (  _use exact naming and casing!_  )**
 
--   Create a snippet called  **_dataLayer-allPages_**  and copy over the provided  [dataLayer-allPages.js](https://github.com/paolobtl/GA4-Shopify-dataLayer/blob/main/dataLayer-allPages.js) file in the newly created snippet. 
+-   Create a snippet called  **_dataLayer-allPages_**  and copy over the provided  [dataLayer-allPages.js](https://github.com/paolobtl/GA4-Shopify-dataLayer/blob/main/dataLayer-allPages.js) file in the newly created snippet. To create a snippet watch this [video](https://www.youtube.com/watch?v=9Fxl_xOz7LA).
 - In the code, navigate to the `Dynamic Dependencies` section and make any necessary changes.
 
 **Add the code to the layouts**
