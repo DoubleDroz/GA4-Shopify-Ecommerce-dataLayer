@@ -1,3 +1,5 @@
+{% if first_time_accessed %}
+
 <script>
   var ecommerce = {
       'transaction_id': '{{checkout.order_number  | json}}',
@@ -36,3 +38,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         ecommerce
         });
 </script>
+
+{% endif %}
